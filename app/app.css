@@ -1,11 +1,19 @@
 body {
-  padding: 20px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
 }
+
+a{ font-family: 'Oswald', sans-serif;}
 
 h1 {
   border-bottom: 1px solid gray;
   margin-top: 0;
 }
+
+/* HEADER-&-NAVIGATION */
+
+#header{ width: 100%;}
+#header .navbar{ background: #171717; border-radius: 0; border: 0;}
 
 /* View: Phone list */
 .phones {
@@ -91,3 +99,8 @@ h1 {
   font-size: 1.2em;
   font-weight: bold;
 }
+
+/* FOOTER */
+
+#footer{ background: #666; color: #fff; padding: 10px;}
+#footer .copyright{ margin-top: 1.5em;}
